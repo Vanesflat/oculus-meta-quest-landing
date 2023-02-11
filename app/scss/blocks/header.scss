@@ -1,0 +1,41 @@
+.header {
+  border-bottom: 1px solid #CACAD6;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+.header__basket {
+  position: relative;
+
+  &-counter {
+    display: none;
+  }
+
+  &--active &-counter {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    line-height: 0;
+    color: #ffffff;
+    background-color: #5C5C5E;
+    border-radius: 50%;
+  }
+}

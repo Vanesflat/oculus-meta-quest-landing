@@ -1,0 +1,29 @@
+.buy-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  padding: 0;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  border-image-slice: 1;
+  cursor: pointer;
+
+  &__text,
+  &__price {
+    width: 300px;
+    padding: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__text {
+    color: #F6F4F5;
+    background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  }
+
+  &__price {
+    color: #5C5C5E;
+  }
+}

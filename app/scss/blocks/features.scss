@@ -1,0 +1,22 @@
+.features {
+  padding: 100px 0;
+}
+
+.features__titles {
+  display: flex;
+}
+
+.features__title {
+  flex-basis: 300px;
+  padding-right: 20px;
+}
+
+.features__text {
+  max-width: 330px;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

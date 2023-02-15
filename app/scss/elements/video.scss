@@ -1,0 +1,22 @@
+.video {
+  width: 280px;
+  height: 150px;
+  background-image: url(../images/content-1-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  padding: 9px 10px;
+
+  span {
+    font-size: 13px;
+    color: #f6f4f5;
+  }
+}
+
+.video__btn {
+  margin-left: 22px;
+}

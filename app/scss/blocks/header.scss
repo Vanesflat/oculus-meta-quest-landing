@@ -3,21 +3,25 @@
 }
 
 .header__menu {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   min-height: 80px;
 
   &-list {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 20px;
   }
 }
 
+.header__logo {
+  justify-self: center;
+}
+
 .header__basket {
   position: relative;
+  justify-self: end;
 
   &-counter {
     display: none;
